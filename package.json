@@ -19,6 +19,7 @@
   "devDependencies": {
     "bufferhelper": "^0.2.0",
     "q": "^1.4.1",
-    "request": "^2.62.0"
+    "request": "^2.62.0",
+    "iconv-lite": "^0.4.7",
   }
 }
