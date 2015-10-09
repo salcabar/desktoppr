@@ -1,25 +1,19 @@
 {
   "name": "desktoppr",
   "version": "1.0.0",
-  "description": "下载图集用的",
+  "private": true,
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/salcabar/desktoppr.git"
   },
-  "author": "xiazw",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/salcabar/desktoppr/issues"
-  },
-  "homepage": "https://github.com/salcabar/desktoppr",
-  "devDependencies": {
+  "dependencies": {
     "bufferhelper": "^0.2.0",
     "q": "^1.4.1",
     "request": "^2.62.0",
-    "iconv-lite": "^0.4.7",
+    "iconv-lite": "^0.4.7"
+  },
+  "devDependencies": {
+    "log4js": "^0.6.27"
   }
 }
